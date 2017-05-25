@@ -170,11 +170,6 @@ header {
 
 /* main content */
 
-.main {
-    height: 580px;
-    background-color: #cccccc;
-}
-
 .main-banner {
     margin: 0 auto;
     width: 1024px;
@@ -278,6 +273,61 @@ header {
     padding-left: 100px;
 }
 
+.index-event {
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.index-event article {
+    width: 17.5%;
+    margin: 1% 1%;
+    float: left;
+    background-color: #fafafa;
+    border: 2px solid #ffffff;
+    border-radius: 3%;
+}
+
+.index-event article:hover {
+    border: 2px solid #ebebeb;
+    transition: all ease-in-out 500ms;
+    -webkit-transition: all ease-in-out 500ms;
+    -moz-transition: all ease-in-out 500ms;
+    -o-transition: all ease-in-out 500ms;
+}
+
+.event-img {
+    width: 80%;
+    height: 120px;
+    clear: both;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    background-image: url('../img/reading.jpg');
+}
+
+.index-event h3 {
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.index-event p {
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #868686;
+}
+
 /* footer */
 footer {
     width: 100%;
@@ -347,4 +397,15 @@ footer {
 
 .footer-nav-right-item a:hover {
     text-decoration: underline;
+}
+
+
+
+/*  */
+@media only screen and (max-width: 768px) and (orientation: portrait){
+
+}
+
+@media only screen and (max-width: 768px) and (orientation: landscape){
+
 }
