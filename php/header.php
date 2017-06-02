@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -15,7 +19,7 @@
         <div class="container">
             <div class="header-logo">
                 <a href="index.html">
-                        <img src="img/nw.png" alt="NinthWallLogo">
+                        <img src="../img/nw.png" alt="NinthWallLogo">
                     </a>
             </div>
 

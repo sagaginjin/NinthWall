@@ -4,7 +4,7 @@
         <div class="container">
             <h1>Create a new account</h1>
 
-            <form action="signin.php" method="POST">
+            <form action="register.php" method="POST">
                 <input type="email" name="email" placeholder="Email" required><br>
                 <input type="text" name="name" placeholder="Name" required><br>
                 <input type="password" name="pwd" placeholder="Password" required><br>
