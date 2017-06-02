@@ -1,17 +1,7 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>
-            Ninth Wall
-        </title>
-        <link rel="stylesheet" type="text/css" href="css/signup.css">
-    </head>
-
-    <body>
-        <header>
-
-        </header>
+<?php
+    include 'dbh.php';
+    include 'header.php';
+?>
 
         <aside>
         </aside>
@@ -25,8 +15,6 @@
             <button type="submit">SIGN UP</button>
         </form>
 
-        <footer>
-
-        </footer>
-    </body>
-</html>
+<?php
+    include 'footer.php';
+?>
