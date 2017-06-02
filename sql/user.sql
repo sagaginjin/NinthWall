@@ -1,6 +1,7 @@
 CREATE TABLE user (
-    id int(9) NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    email varchar(56) NOT NULL,
+    id int(8) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    email varchar(64) NOT NULL,
+    name varchar(64) NOT NULL,
     pwd varchar(16) NOT NULL
 );
 
