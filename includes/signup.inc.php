@@ -1,6 +1,6 @@
 <?php
     session_start();
-    include 'dbh.php';
+    include '../php/dbh.php';
 
     $email = $_POST['email'];
     $name = $_POST['name'];
@@ -9,4 +9,4 @@
     $sql = "INSERT INTO user (email, name, pwd) VALUES ('$email', '$name', '$pwd');";
     $result = mysqli_query($conn, $sql);
 
-    header('Location: ../index.html');
+    header('Location: ../index.php');

@@ -12,7 +12,7 @@
             </div>
             <div class="footer-logo-wrapper">
                 <div class="footer-logo">
-                    <a href="index.html">
+                    <a href="../index.php">
                             <img src="../img/nw.png" alt="NinthWallLogo">
                         </a>
                 </div>

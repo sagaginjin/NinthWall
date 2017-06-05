@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -39,19 +43,26 @@
                 <nav>
                     <ul>
                         <li class="user-nav-item"><a href="addgroup.html">Add group</a></li>
-                        <li class="user-nav-item"><a href="php/signup.php">Sign up<img src="img/dropdown.png"></a>
-                            <ul>
-                                <li><a href="#">Your profile</a></li>
-                                <li><a href="#">Settings</a></li>
-                                <li><a href="#">Sign out</a></li>
-                            </ul>
-                        </li>
+                        <?php
+                            if (!isset($_SESSION['id'])){
+                                echo "<li class='user-nav-item'><a href='php/signup.php'>Sign up </a> or <a href='php/login.php'>Log in </a>
+                                </li>";
+                            } else {
+                                echo "<li class='user-nav-item'><a href='includes/signout.inc.php'>Sign out <img src='img/dropdown.png'></a>
+                                    <ul>
+                                        <li><a href='#'>Your profile</a></li>
+                                        <li><a href='#'>Settings</a></li>
+                                        <li><a href='#'>Sign out</a></li>
+                                    </ul>
+                                </li>";
+                            }
+                        ?>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
-
+    
     <section>
         <div class="container">
             <div class="main-banner" id="main-banner">
@@ -160,7 +171,7 @@
             </div>
             <div class="footer-logo-wrapper">
                 <div class="footer-logo">
-                    <a href="index.html">
+                    <a href="index.php">
                             <img src="img/nw.png" alt="NinthWallLogo">
                         </a>
                 </div>

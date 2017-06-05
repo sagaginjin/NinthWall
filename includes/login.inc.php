@@ -1,6 +1,6 @@
 <?php
     session_start();
-    include 'dbh.php';
+    include '../php/dbh.php';
 
     $email = $_POST['email'];
     $pwd = $_POST['pwd'];
@@ -13,5 +13,5 @@
         echo "Your email or password incorrect! Please try again.";
     }else {
         $_SESSION['id'] = $row['id'];
-        header('Location: ../index.html');
+        header('Location: ../index.php');
     }
