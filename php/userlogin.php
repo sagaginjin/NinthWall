@@ -5,7 +5,7 @@
     $email = $_POST['email'];
     $pwd = $_POST['pwd'];
 
-    $sql = "SELECT * FROM user WHERE name = '$email' AND pwd = '$pwd';";
+    $sql = "SELECT * FROM user WHERE email = '$email' AND pwd = '$pwd';";
     $result = mysqli_query($conn, $sql);
     $row = mysqli_fetch_assoc($result);
 

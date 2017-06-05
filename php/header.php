@@ -43,7 +43,7 @@
                 <nav>
                     <ul>
                         <li class="user-nav-item"><a href="addgroup.html">Add group</a></li>
-                        <li class="user-nav-item"><a href="login.html">Log in <img src="../img/dropdown.png"></a>
+                        <li class="user-nav-item"><a href="../php/login.php">Log in <img src="../img/dropdown.png"></a>
                             <ul>
                                 <li><a href="#">Your profile</a></li>
                                 <li><a href="#">Settings</a></li>
