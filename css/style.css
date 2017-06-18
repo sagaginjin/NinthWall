@@ -512,20 +512,6 @@ footer {
     text-decoration: underline;
 }
 
-/* log in */
-.login-form {
-    border: 2px solid #222222;
-    background-color: #222222;
-    height: 500px;
-}
-
-/* sign up */
-.signup-form {
-    border: 2px solid #222222;
-    background-color: #222222;
-    height: 500px;
-}
-
 
 /*  */
 @media only screen and (max-width: 768px) and (orientation: portrait){

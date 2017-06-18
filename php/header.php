@@ -11,6 +11,7 @@
         Ninth Wall
     </title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/login.signup.css">
     <link rel="shortcut icon" type="image/png" href="../img/nw.png">
 </head>
 
