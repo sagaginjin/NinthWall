@@ -40,7 +40,9 @@
             header('Location: ../php/signup.php?error=username');
             exit();
         } else {
-            $sql = "INSERT INTO user (email, pwd, firstname, lastname) VALUES ('$email', '$pwd', '$firstname', '$lastname');";
+            $encrypted_pwd = password_hash($pwd, PASSWORD_DEFAULT);
+            $sql = "INSERT INTO user (email, pwd, firstname, lastname) 
+                VALUES ('$email', '$encrypted_pwd', '$firstname', '$lastname')";
             $result = mysqli_query($conn, $sql);
 
             header('Location: ../index.php');

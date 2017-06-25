@@ -1,6 +1,7 @@
 /* log in */
+
 .login-form {
-    background: #333333; 
+    background: #333333;
     padding: 40px;
     max-width: 300px;
     margin: 40px auto;
@@ -9,7 +10,7 @@
     text-align: center;
 }
 
-.login-form h1{
+.login-form h1 {
     color: #ffffff;
     font-size: 20px;
 }
@@ -18,8 +19,9 @@
     margin: 40px auto;
 }
 
-.login-input form input{
-    width: 250px;;
+.login-input form input {
+    width: 250px;
+    ;
     height: 30px;
     padding: 5px 5px;
     margin: 5px 5px;
@@ -30,8 +32,9 @@
     font-size: 14px;
 }
 
-.login-input form button{
-    width: 250px;;
+.login-input form button {
+    width: 250px;
+    ;
     height: 30px;
     padding: 5px 5px;
     margin: 20px 0px;
@@ -42,9 +45,11 @@
     font-size: 14px;
 }
 
+
 /* sign up */
+
 .signup-form {
-    background: #333333; 
+    background: #333333;
     padding: 40px;
     max-width: 300px;
     margin: 40px auto;
@@ -53,7 +58,7 @@
     text-align: center;
 }
 
-.signup-form h1{
+.signup-form h1 {
     color: #ffffff;
     font-size: 20px;
 }
@@ -62,8 +67,9 @@
     margin: 40px auto;
 }
 
-.signup-input form input{
-    width: 250px;;
+.signup-input form input {
+    width: 250px;
+    ;
     height: 30px;
     padding: 5px 5px;
     margin: 5px 5px;
@@ -74,8 +80,9 @@
     font-size: 14px;
 }
 
-.signup-input form button{
-    width: 250px;;
+.signup-input form button {
+    width: 250px;
+    ;
     height: 30px;
     padding: 5px 5px;
     margin: 20px 0px;
